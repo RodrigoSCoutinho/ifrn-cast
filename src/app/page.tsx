@@ -50,7 +50,7 @@ export default function Home() {
           <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
 
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <a href= "#" className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20">
+            <a href= "#" className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
               <Image src="/foo-fighters.jpg" width={104} height={104} alt="Capa do album Foo Fighters"/>
               <strong>Wasting Light</strong>
             </a>

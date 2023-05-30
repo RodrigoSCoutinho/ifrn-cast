@@ -1,5 +1,28 @@
+## The project created to the activity at IFRN by Marcelo Varela
 
-## Getting Started the project 
+This project is a clone of spotify that from it, we would create a project called: IFRN-CAST
+
+``` Dependencies
+Dependencies:
+
+NextJS | React
+Lucide React
+Tailwind CSS
+Vitest from Tests Components (Lacking)
+```
+
+```Techniques
+Techniques(need to implement):
+
+Clean Code
+S.O.L.I.D
+TDD
+KISS
+DRY
+YAGNI
+```
+
+## How can I start the project? 
 
 First, run the development server:
 
