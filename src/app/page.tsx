@@ -102,6 +102,37 @@ export default function Home() {
 
           <h2 className="font-semibold text-3xl mt-10">Made for Rodrigo Coutinho</h2>
 
+          <div className="grid grid-cols-8 gap-4 mt-4">
+            <a className="bg-white/5 p-3 rounded hover:bg-white/10">
+             <Image src="/foo-fighters.jpg" className="w-full" width={120} height={120} alt="Capa do album Foo Fighters"/>
+             <strong>Daily Mix 1</strong>
+             <span className="text-xs text-zinc-500" >Wallows, COIN, girl in red and more</span>
+            </a>
+
+            <a className="bg-white/5 p-3 rounded">
+             <Image src="/foo-fighters.jpg" className="w-full" width={120} height={120} alt="Capa do album Foo Fighters"/>
+             <strong>Daily Mix 1</strong>
+             <span className="text-xs text-zinc-500">Wallows, COIN, girl in red and more</span>
+            </a>
+
+            <a className="bg-white/5 p-3 rounded">
+             <Image src="/foo-fighters.jpg" className="w-full" width={120} height={120} alt="Capa do album Foo Fighters"/>
+             <strong>Daily Mix 1</strong>
+             <span className="text-xs text-zinc-500">Wallows, COIN, girl in red and more</span>
+            </a>
+
+            <a className="bg-white/5 p-3 rounded">
+             <Image src="/foo-fighters.jpg" className="w-full" width={120} height={120} alt="Capa do album Foo Fighters"/>
+             <strong>Daily Mix 1</strong>
+             <span className="text-xs text-zinc-500">Wallows, COIN, girl in red and more</span>
+            </a>
+
+            <a className="bg-white/5 p-3 rounded">
+             <Image src="/foo-fighters.jpg" className="w-full" width={120} height={120} alt="Capa do album Foo Fighters"/>
+             <strong>Daily Mix 1</strong>
+             <span className="text-xs text-zinc-500">Wallows, COIN, girl in red and more</span>
+            </a>
+          </div>
         </main>
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
