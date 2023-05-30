@@ -1,4 +1,5 @@
 import {Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight} from 'lucide-react'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -46,7 +47,34 @@ export default function Home() {
           </button>
           </div>
 
-          <h1>Good Afternoon</h1>
+          <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
+
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            <a href= "#" className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20">
+              <Image src="/foo-fighters.jpg" width={104} height={104} alt="Capa do album Foo Fighters"/>
+              <strong>Wasting Light</strong>
+            </a>
+            <a href= "#" className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20">
+              <Image src="/foo-fighters.jpg" width={104} height={104} alt="Capa do album Foo Fighters"/>
+              <strong>Wasting Light</strong>
+            </a>
+            <a href= "#" className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20">
+              <Image src="/foo-fighters.jpg" width={104} height={104} alt="Capa do album Foo Fighters"/>
+              <strong>Wasting Light</strong>
+            </a>
+            <a href= "#" className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20">
+              <Image src="/foo-fighters.jpg" width={104} height={104} alt="Capa do album Foo Fighters"/>
+              <strong>Wasting Light</strong>
+            </a>
+            <a href= "#" className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20">
+              <Image src="/foo-fighters.jpg" width={104} height={104} alt="Capa do album Foo Fighters"/>
+              <strong>Wasting Light</strong>
+            </a>
+            <a href= "#" className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20">
+              <Image src="/foo-fighters.jpg" width={104} height={104} alt="Capa do album Foo Fighters"/>
+              <strong>Wasting Light</strong>
+            </a>
+          </div>
         </main>
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
