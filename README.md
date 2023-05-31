@@ -1,4 +1,5 @@
-## The project created to the activity at IFRN by Marcelo Varela
+## The project created to the activity at IFRN
+## Prof: Marcelo Varela
 
 This project is a clone of spotify that from it, we would create a project called: IFRN-CAST
 
